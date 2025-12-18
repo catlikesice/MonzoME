@@ -4,7 +4,7 @@
 
 | API Endpoint | Method | Request JSON | Response JSON | UI Selector | CSS Classes |
 |--------------|--------|---------|----------|-------------|-------------|
-| `/api/pots` | POST | - | | `.pot-card` | `bg-gradient p-4 rounded-xl` |
+| `/api/pots` | POST | [Request](screenshots/event-request.png)<br/>`{"event_type":"pot_created"}` |![Response](screenshots/event-response.png)<br/>`{"status":"processed"}` | `.pot-card` | `bg-gradient p-4 rounded-xl` |
 | `/api/pots/:id` | PATCH | `{amount_cents: 1000}` | `{success: true}` | `.transfer-form` | `shadow-lg` |
 
 ## Transactions
