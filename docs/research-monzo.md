@@ -2,7 +2,7 @@
 
 ## Pots Dashboard
 
-| API Endpoint | Method | Request | Response | UI Selector | CSS Classes |
+| API Endpoint | Method | Request JSON | Response JSON | UI Selector | CSS Classes |
 |--------------|--------|---------|----------|-------------|-------------|
 | `/api/pots` | GET | - | `[{id, name, balance_cents, color}]` | `.pot-card` | `bg-gradient p-4 rounded-xl` |
 | `/api/pots/:id` | PATCH | `{amount_cents: 1000}` | `{success: true}` | `.transfer-form` | `shadow-lg` |
